@@ -1,9 +1,8 @@
-
-import Navbar from './components/navbar'
-import Home from './components/Home'
-import Tunisia from './components/Tunisia';
-import Skills from './components/Skills';
-import Contact from './components/Contact';
+import Navbar from './components/Navbar.jsx'
+import Home from './components/Home.jsx'
+import Tunisia from './components/Tunisia.jsx';
+import Skills from './components/Skills.jsx';
+import Contact from './components/Contact.jsx';
 
 
 function App() {
