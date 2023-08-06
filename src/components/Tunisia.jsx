@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Cards from './cards'
+import Cards from './Cards.jsx'
 
 const Tunisia = () => {
 
