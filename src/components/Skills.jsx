@@ -8,8 +8,13 @@ import Html from '../assets/html5.png';
 import Java from '../assets/java.png';
 import Mongo from '../assets/mongodb.svg';
 import ReactPic from '../assets/react.png';
-
-
+import SpringBoot from '../assets/spring-boot-logo.png'
+import aspNet from '../assets/asp.net.logo.png'
+import Flutter from '../assets/flutter.png'
+import Azure from '../assets/azure.png'
+import Svelte from '../assets/Svelte.png'
+import MsSql from '../assets/mssql.png'
+import python from '../assets/python.png'
 
 const Skills = () => {
     return (
@@ -23,6 +28,38 @@ const Skills = () => {
                     <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={Html} alt="html Icon"></img>
                         <p className='font-bold mt-1'>HTML</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={Ghub} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>Github</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={SpringBoot} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>SpringBoot</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={aspNet} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>ASP .NET</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={Flutter} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>Flutter</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={Azure} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>Azure DevOps</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={Svelte} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>Svelte</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={python} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>Python</p>
+                    </div>
+                    <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
+                        <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={MsSql} alt="html Icon"></img>
+                        <p className='font-bold mt-1'>MsSql</p>
                     </div>
                     <div className='shadow-md group shadow-slate-500 hover:scale-110 duration-500'>
                         <img className='w-20 mx-auto group-hover:scale-110 duration-500' src={ReactPic} alt="html Icon"></img>

@@ -51,13 +51,13 @@ const Carousel = ({ children }) => {
   );
 };
 
-const Cards = () => {
+const CountryCards = () => {
   return (
     <div className='app'>
       <Carousel>
         {[...new Array(CARDS)].map((_, i) => (
 
-          <Card title={i === 0 ? 'North' : i === 1 ? 'South' : i === 2 ? 'Coast' : ''} content={
+          <Card key={i} title={i === 0 ? 'North' : i === 1 ? 'South' : i === 2 ? 'Coast' : ''} content={
             i === 0 ? 'The North of Tunisia is a culturally rich region along the Mediterranean coast, famous for its ancient ruins, Islamic landmarks, and traditional architecture. It offers a unique blend of historical and modern elements, making it an intriguing destination for those interested in exploring Tunisias past and present.' :
               i === 1 ? 'The South of Tunisia is a rugged and diverse region known for its vast deserts, stunning oases, and unique Berber culture. It offers thrilling adventures, such as camel rides and desert safaris, as well as historic attractions like ancient troglodyte dwellings and the historic city of Tozeur and Tataouine. Whether you^re seeking natural beauty or cultural immersion, the South of Tunisia is a must-visit destination.' :
                 i === 2 ? 'The coast of Tunisia spans over 1,100 km along the Mediterranean Sea, offering stunning beaches, charming coastal towns, and rich cultural heritage. Sidi Bou Said, a picturesque village with white-and-blue painted buildings, and Djerba, a large island with ancient ruins and traditional villages, are just two of the many popular destinations along the coast. Whether you^re looking for a relaxing beach vacation or an adventure steeped in history and culture, the coast of Tunisia has something for everyone.' : ''
@@ -67,4 +67,4 @@ const Cards = () => {
     </div>
   );
 }
-export default Cards;
+export default CountryCards;

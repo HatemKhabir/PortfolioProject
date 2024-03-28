@@ -32,7 +32,15 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li className='hover:font-bold hover:text-2xl duration-500'><a href='https://drive.google.com/file/d/15m3eTQoZID2cZI91rY_vRvbminajoTG1/view?usp=share_link' target='_blank'>Resume</a></li>
+        <li className='hover:font-bold hover:text-2xl duration-500'>
+          <Link activeClass="active" to="projects" spy={true} smooth={true} offset={30} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li className='hover:font-bold hover:text-2xl duration-500'>
+          <a href='https://hatemkhabircv.tiiny.site' target='_blank' rel="noopener noreferrer">Resume
+          </a>
+          </li>
         <li className='hover:font-bold hover:text-2xl duration-500'>
           <Link activeClass="active" to="contact" spy={true} smooth={true} offset={30} duration={500}>
             Contact
@@ -59,7 +67,13 @@ const Navbar = () => {
             Skills
           </Link>
         </li>
-        <li onClick={handleClick} className='py-6 text-3xl hover:font-bold hover:text-4xl duration-500'><a href='https://drive.google.com/file/d/15m3eTQoZID2cZI91rY_vRvbminajoTG1/view?usp=share_link' target='_blank'>Resume</a></li>
+        <li className='py-6 text-3xl hover:font-bold hover:text-4xl duration-500'>
+          <Link onClick={handleClick} activeClass="active" to="projects" spy={true} smooth={true} offset={30} duration={500}>
+            Projects
+          </Link>
+        </li>
+        <li onClick={handleClick} className='py-6 text-3xl hover:font-bold hover:text-4xl duration-500'>
+          <a href='https://hatemkhabircv.tiiny.site' target='_blank'>Resume</a></li>
         <li className='py-6 text-3xl hover:font-bold hover:text-4xl duration-500'>
           <Link onClick={handleClick} activeClass="active" to="contact" spy={true} smooth={true} offset={30} duration={500}>
             Contact
@@ -88,19 +102,11 @@ const Navbar = () => {
           </li>
           <li className='w-[180px] h-[70px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0a192f]'>
             <a className='flex justify-between items-center w-full text-gray-300 text-2xl ml-[10px]' href='/'>
-              <a href='https://drive.google.com/file/d/15m3eTQoZID2cZI91rY_vRvbminajoTG1/view?usp=share_link' target='_blank'>Resume</a><BsFillPersonLinesFill size={30} />
+              <a href='https://hatemkhabircv.tiiny.site' target='_blank'>Resume</a><BsFillPersonLinesFill size={30} />
             </a>
           </li>
-
         </ul>
-
-
-
-
       </div>
-
-
-
     </div>
   )
 }
