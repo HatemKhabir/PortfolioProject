@@ -13,9 +13,9 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7 font-bold text-[#606268]'>Hatem Khabir</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#922e2e]'>I am a Software Engineering Student</h2>
         <p className='text-[#606268] py-4 max-w-[700px] text-xl font-medium'>I am a software engineering student from tunisia , interested mainly in backend but
-          I am willing to become full-developer and expand my knowledge with Various new Technologies.
-          I am a highly motivated student with a passion for innovative solutions, a strong analytical mindset, excellent 'perfectionist' team player, and committed to continuous learning and improvement .
-          This webiste is A portfolio and a country presentation at the same time ! Hope you will like my CV and my coutnry as well !
+          I am willing to become full-stack developer and expand my knowledge with various new technologies.
+          I am a highly motivated student with a passion for innovative solutions, a strong analytical mindset, an excellent and perfectionist team player, and committed to continuous learning and improvement .
+          This webiste is A portfolio and a country presentation at the same time , why country presentation you ask ? well i just love my country ! You can send me an email using the Contact form below or hatemkhabir.2001@gmail.com ! Thank you !
         </p>
         <div>
           <button className="md:text-black group relative overflow-hidden border-2 border-black py-2 my-1 flex items-center hover:bg-white hover:border-red-300">
